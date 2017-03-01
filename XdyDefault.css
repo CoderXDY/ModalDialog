@@ -1,0 +1,48 @@
+    .default-layout{
+		position:absolute;
+		width : 100%;
+		height : 100%;
+		z-index: 100;
+		background-color: grey;
+		opacity: 0.1;
+	}
+	.default-background{
+		position : absolute;
+		margin-left : 35%;
+		margin-top : 15%;
+		width : 30%;
+		height : 20%;
+		z-index: 101;
+		background-color : white;
+		border : 2px solid #399;
+		border-radius: 4px;
+
+	}
+	#xdyDialogMessage{
+		
+		padding-left:4%;
+		padding-top:5%;
+		font-size: 12px;
+	}
+	#xdyOkBtn{
+
+		width:40%;
+		height: 7%;
+		background-color: #399;
+		font-color : white;
+		font-size : 14px;
+		border : 0px;
+		padding : 1% 2% 2% 1%;
+		margin-left: 8%;
+		margin-top : 5%;
+	}
+	#xdyCancelBtn{
+		width:40%;
+		height: 7%;
+		background-color: #399;
+		font-color : white;
+		font-size : 14px;
+		border : 0px;
+		padding : 1% 2% 2% 1%;
+
+	}

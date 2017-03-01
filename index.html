@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<title></title>
+	<link href="XdyDefault.css" rel="stylesheet">
+</head>
+<body>
+
+	<div id="dialogArea"></div>
+
+	<script type="text/javascript" src="jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="XdyDialog.js"></script>
+	<script type="text/javascript">
+		$("#dialogArea").initDialog({dialogMessage : "hello world!"});
+		$("#dialogArea").showDialog();
+		setTimeout(3000,function(){
+			$("#dialogArea").hide();
+		});
+	</script>
+</body>
+</html>
+
+
+			
